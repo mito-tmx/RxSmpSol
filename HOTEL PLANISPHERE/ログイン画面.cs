@@ -99,8 +99,8 @@ namespace HOTEL_PLANISPHERE
             repo.ApplicationUnderTest.ログイン画面.LoginButton.Click("212;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='プレミアム会員') on item 'ApplicationUnderTest.ログイン画面.Rank'.", repo.ApplicationUnderTest.ログイン画面.RankInfo, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.ログイン画面.RankInfo, "InnerText", "プレミアム会員");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='一般会員') on item 'ApplicationUnderTest.ログイン画面.Rank'.", repo.ApplicationUnderTest.ログイン画面.RankInfo, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.ログイン画面.RankInfo, "InnerText", "一般会員", null, new Validate.Options(){ReportScreenshot=Validate.ResultOption.Always});
             Delay.Milliseconds(100);
             
         }

@@ -94,7 +94,7 @@ namespace HOTEL_PLANISPHERE
 
             try {
                 Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (InnerText=$accommodationFee) on item 'ApplicationUnderTest.宿泊予約確認画面.TotalBill'.", repo.ApplicationUnderTest.宿泊予約確認画面.TotalBillInfo, new RecordItemIndex(0));
-                Validate.AttributeEqual(repo.ApplicationUnderTest.宿泊予約確認画面.TotalBillInfo, "InnerText", accommodationFee, null, false);
+                Validate.AttributeEqual(repo.ApplicationUnderTest.宿泊予約確認画面.TotalBillInfo, "InnerText", accommodationFee, null, new Validate.Options(){ReportScreenshot=Validate.ResultOption.Always});
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             

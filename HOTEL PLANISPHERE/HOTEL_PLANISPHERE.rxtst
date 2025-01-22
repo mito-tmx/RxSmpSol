@@ -200,7 +200,7 @@
 			</testmodule>
 			<testmodule
 			id="977c3447-6986-428d-a54a-ef5d4470f1f0"
-			name="宿泊プラン一覧"
+			name="宿泊プラン一覧画面"
 			ref="1a203d1a-271d-41cd-9ebf-ab39e0785494"
 			type="Recording">
 				<databinding>
@@ -237,10 +237,10 @@
 			ReportTime="RelativeToTestSuiteStartTime"
 			SelectedActions="Action|Application|Data|Delay|Device orientation|Get Value|Information|Invoke action|Keyboard|Mobile|Module|Mouse|Section|Set value|Test|Touch gestures|Touch|User|Validation|Wait|Website|"
 			TracingScreenshotMode="Foreground"
-			TracingScreenshotQuality="40"
+			TracingScreenshotQuality="20"
 			VideoBitrate="2000"
 			VideoFps="15"
-			VideoRecordingMode="KeepAllTests"
+			VideoRecordingMode="Off"
 			VideoSource="Auto"
 			createindividualreportpdfchecked="False"
 			createsinglereportpdfchecked="True"
@@ -293,7 +293,7 @@
 			</teardown>
 			<testmodule
 			id="e085931e-13a8-404d-aa82-a7d2f6dd13fe"
-			name="宿泊プラン一覧"
+			name="宿泊プラン一覧画面"
 			ref="1a203d1a-271d-41cd-9ebf-ab39e0785494"
 			type="Recording">
 				<databinding>
@@ -342,7 +342,7 @@
 						</testmodule>
 						<testmodule
 						id="977c3447-6986-428d-a54a-ef5d4470f1f0"
-						name="宿泊プラン一覧">
+						name="宿泊プラン一覧画面">
 						</testmodule>
 						<testmodule
 						id="2445ffe1-8d62-4e7f-9bca-b7ae8d7ac56d"
@@ -362,7 +362,7 @@
 						</testmodule>
 						<testmodule
 						id="e085931e-13a8-404d-aa82-a7d2f6dd13fe"
-						name="宿泊プラン一覧">
+						name="宿泊プラン一覧画面">
 						</testmodule>
 						<testmodule
 						id="701a1cb6-1bce-4913-b9d1-d779032fd5ad"
@@ -469,12 +469,6 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="0678c4ee-8c9a-4450-b845-28680793e564">
-			</testcontainer>
-			<testcontainer
-			id="23a24065-9c41-4fba-a1bf-7f9170b19ef0">
-			</testcontainer>
 			<testcontainer
 			id="405666f3-9f4e-4baf-b29c-aca79e0702a0">
 			</testcontainer>

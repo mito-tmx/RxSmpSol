@@ -1241,6 +1241,7 @@ ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z
 		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
+		createscreenshot="Always"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -1363,7 +1364,7 @@ KKKKAP/Z
 				InnerText
 			</matchname>
 			<matchvalue>
-				プレミアム会員
+				一般会員
 			</matchvalue>
 		</validationitem>
 	</recorditems>

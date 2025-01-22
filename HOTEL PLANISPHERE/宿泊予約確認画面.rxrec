@@ -32,6 +32,7 @@ mode="Global">
 	<recorditems>
 		<validationitem
 		action="AttributeEqual"
+		createscreenshot="Always"
 		duration="100ms"
 		enabled="True"
 		optional="True"
