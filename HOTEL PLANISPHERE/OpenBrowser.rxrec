@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c505b929-632b-430a-8b08-ae95d1c8d366"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="HOTEL_PLANISPHERE">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://hotel-example-site.takeyaqa.dev/ja/index.html
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="0b3c8a83-ee4c-487b-9da3-54e604e76109"
+	name="HOTEL_PLANISPHERERepository"
+	relativepath="HOTEL_PLANISPHERERepository.rxrep">
+		<codegen
+		classname="HOTEL_PLANISPHERERepository"
+		namespace="HOTEL_PLANISPHERE">
+		</codegen>
+		<rootfolder
+		id="dc4b6f21-9a6a-47ac-836a-f9db4a327463"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

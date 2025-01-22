@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="11.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="faf6878e-03fd-49a3-8cdb-8796754d8e0d"
+			name="HOTEL_PLANISPHERE">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="faf6878e-03fd-49a3-8cdb-8796754d8e0d"
+			name="HOTEL_PLANISPHERE">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

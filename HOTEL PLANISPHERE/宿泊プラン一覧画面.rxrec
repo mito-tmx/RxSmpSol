@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1a203d1a-271d-41cd-9ebf-ab39e0785494"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="宿泊プラン一覧画面"
+	namespace="HOTEL_PLANISPHERE">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="95;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9864672a-2f89-4145-970d-8314ad6db64e"
+		sx="590"
+		sy="834"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b7ea1b87-f3dc-4966-8773-c6453adccc7e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='hotel-example-site.takeyaqa.dev']//div[#'plan-list']//h5[@innertext=$planName]/../a[@innertext='このプランで予約']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="0b3c8a83-ee4c-487b-9da3-54e604e76109"
+	name="HOTEL_PLANISPHERERepository"
+	relativepath="HOTEL_PLANISPHERERepository.rxrep">
+		<codegen
+		classname="HOTEL_PLANISPHERERepository"
+		namespace="HOTEL_PLANISPHERE">
+		</codegen>
+		<rootfolder
+		id="dc4b6f21-9a6a-47ac-836a-f9db4a327463"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		宿泊プラン一覧画面.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

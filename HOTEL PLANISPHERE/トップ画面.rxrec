@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7689c5ff-63b1-457c-bccf-0a5f744d46d7"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="トップ画面"
+	namespace="HOTEL_PLANISPHERE">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="35;22"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e5c9f66b-a08c-4d4b-aa11-45bc3db84ed5"
+		sx="1126"
+		sy="349"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0a644c8d-4ce9-4377-b38e-1562fcdabe26"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1091,327,90,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-outline-secondary my-2 my-sm-0
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						ログイン
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						btn btn-outline-secondary my-2 my-sm-0
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://hotel-example-site.takeyaqa.dev/ja/login.html
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='hotel-example-site.takeyaqa.dev']//li[#'login-holder']/a[@innertext='ログイン']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="79a6469c-950c-4c7d-a7c5-d38dccbb665a">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABsAVwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo6K5z
++37r/nnD/wB8n/Gj+37r/nnD/wB8n/GmB0dFc5/b91/zzh/75P8AjR/b91/zzh/75P8AjQB0dFc5
+/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk/wCNH9v3X/POH/vk/wCNAHR0
+Vzn9v3X/ADzh/wC+T/jR/b91/wA84f8Avk/40AdHRXOf2/df884f++T/AI0f2/df884f++T/AI0A
+dHRXOf2/df8APOH/AL5P+NH9v3X/ADzh/wC+T/jQB0dFc5/b91/zzh/75P8AjR/b91/zzh/75P8A
+jQB0dFc5/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk/wCNH9v3X/POH/vk
+/wCNAHR0Vzn9v3X/ADzh/wC+T/jR/b91/wA84f8Avk/40AdHRXOf2/df884f++T/AI0f2/df884f
+++T/AI0AdHRXOf2/df8APOH/AL5P+NH9v3X/ADzh/wC+T/jQB0dFc5/b91/zzh/75P8AjR/b91/z
+zh/75P8AjQB0dFc5/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk/wCNH9v3
+X/POH/vk/wCNAHR0Vzn9v3X/ADzh/wC+T/jR/b91/wA84f8Avk/40AdHRXOf2/df884f++T/AI0f
+2/df884f++T/AI0AdHRXOf2/df8APOH/AL5P+NH9v3X/ADzh/wC+T/jQB0dFc5/b91/zzh/75P8A
+jR/b91/zzh/75P8AjQB0dFc5/b91/wA84f8Avk/40f2/df8APOH/AL5P+NAHR0Vzn9v3X/POH/vk
+/wCNH9v3X/POH/vk/wCNAGXRRRQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKAClT7wpKVPvCplszWj/Ej6ospECoLHr6U7yV9TT0+4v0paShG2xc
+sRVUn7xH5K+po8lfU1JRT5I9ifrFX+Yj8lfU0eSvqal2tt3bTtzjOOM094JEQOy4U45z60ckew/r
+FX+Yr+SvqaPJX1NSUpVgoYqQp6HHBo5I9hfWKv8AMReSvqaPJX1NSUUckewfWKv8xH5K+pqGRdhI
+7YyKtVXuPvn/AHf8amUUlobUa1SU7N9/yK9FFFaHGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABU0flpyHUv2JBwP05qGrMEmxCTPg4wqknAoAa5jkUeZIpf+8AefrxUsOUtx84wzHvj+oqPzQY2
+Xz5N3Y84Pt1pUnEcAXcWPOAuRj6nNAEkhLwyAODxk85/9mNJCSsakeaSB0TLAfX/AApn2gPEVJ2s
+Rg7ixH86SJoxEUkZCOozu4P4UASt8yHerg9yy7Q3pk0iqRbfKGC98pnJ9cjtTGMfklUaNS33vvfh
+QJYhAFOCe4A/z/WgCXLFGDsPmBUY3nn6GqNW2uV2BSchs7gucgcY5NVKACiiigAooooAKVPvCkpU
++8KmWzNaP8SPqi8n3F+lS24BuIwQCCwyD9aiT7i/SpIn8uVHxnaQcVUehE/iZLNMyzOqrEAGIH7p
+f8KfInmwW5/dozbstgKOD7VG8kDuzGKTLHJ/eD/CkmlV4o40QqEz1bOc/hQSSSXIVRDAFMa92UHc
+fXmn3ZkKQwYzJtyyquPcDA9KrbIwks8ZkLw+UR6ZLnPA68YqE3KyyEs/zk87hgk/jQBdgswZgk7h
+Sf4Acsf8KhmmaVwcbVXhVH8IpbWVYbhZGBIGen0qIYzz0pgSyT+amJEBk7OOD+PrSPDshR2bDP0X
+HOPWnB4I+UQyNjrJ0/L/AOvUTu0jl3Ysx6k0gG1XuPvn/d/xqxVe4++f93/Gpnsb4f8AiL5/kV6K
+KKowCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKVPvCkpVODmlLZmlJpTi33Lycov0papB8dCw+hpfNP95vzqVLyNJUk23zL+vkXKRjgDALEkAA
+dyTiqnmn+8350jOGGGLEe5p83kL2K/mX4/5G3plu7y3McitEymFiGH91if6VYv7JBZzO+19kUxGV
+6Fjuz+FRaNqizILe5cCZeFZj98f41LrV9DDYyxB1aWVSiqDk88ZqjEyaKp+af7zfnR5p/vN+dTze
+Rt7FfzL8f8i5RVPzT/eb86PNP95vzo5vIPYr+Zfj/kXKr3H3z/u1H5p/vN+dN3Dnrk0pNtWsXThG
+EuZyXX8htFFFWcoUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFACEA9QDQAB0AFLRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFAHRf2Ba/8APSb/AL6H+FH9gWv/AD0m/wC+h/hWrRSGZX9gWv8A
+z0m/76H+FH9gWv8Az0m/76H+FatFAGV/YFr/AM9Jv++h/hR/YFr/AM9Jv++h/hWrRQBlf2Ba/wDP
+Sb/vof4Uf2Ba/wDPSb/vof4Vq0UAZX9gWv8Az0m/76H+FH9gWv8Az0m/76H+FatFAGV/YFr/AM9J
+v++h/hR/YFr/AM9Jv++h/hWrRQBlf2Ba/wDPSb/vof4Uf2Ba/wDPSb/vof4Vq0UAZX9gWv8Az0m/
+76H+FH9gWv8Az0m/76H+FatFAGV/YFr/AM9Jv++h/hR/YFr/AM9Jv++h/hWrRQBlf2Ba/wDPSb/v
+of4Uf2Ba/wDPSb/vof4Vq0UAZX9gWv8Az0m/76H+FH9gWv8Az0m/76H+FatFAGV/YFr/AM9Jv++h
+/hR/YFr/AM9Jv++h/hWrRQBlf2Ba/wDPSb/vof4Uf2Ba/wDPSb/vof4Vq0UAZX9gWv8Az0m/76H+
+FH9gWv8Az0m/76H+FatFAGV/YFr/AM9Jv++h/hR/YFr/AM9Jv++h/hWrRQBlf2Ba/wDPSb/vof4U
+f2Ba/wDPSb/vof4Vq0UAZX9gWv8Az0m/76H+FH9gWv8Az0m/76H+FatFAGV/YFr/AM9Jv++h/hR/
+YFr/AM9Jv++h/hWrRQBlf2Ba/wDPSb/vof4Uf2Ba/wDPSb/vof4Vq0UAZX9gWv8Az0m/76H+FH9g
+Wv8Az0m/76H+FatFAGV/YFr/AM9Jv++h/hR/YFr/AM9Jv++h/hWrRQBlf2Ba/wDPSb/vof4Uf2Ba
+/wDPSb/vof4Vq0UAf//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="0b3c8a83-ee4c-487b-9da3-54e604e76109"
+	name="HOTEL_PLANISPHERERepository"
+	relativepath="HOTEL_PLANISPHERERepository.rxrep">
+		<codegen
+		classname="HOTEL_PLANISPHERERepository"
+		namespace="HOTEL_PLANISPHERE">
+		</codegen>
+		<rootfolder
+		id="dc4b6f21-9a6a-47ac-836a-f9db4a327463"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		トップ画面.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
